@@ -1,0 +1,513 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 25-03-2023 15:29:36.
+      Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.53
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 25-03-2023 15:29:38.
+      Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.00
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-c1se6e"
+      binary: "C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-c1se6e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-c1se6e
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c3056.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 25-03-2023 15:29:39.
+        Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c3056.dir\\Debug\\".
+          Creating directory "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\Debug\\".
+          Creating directory "cmTC_c3056.dir\\Debug\\cmTC_c3056.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c3056.dir\\Debug\\cmTC_c3056.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3056.dir\\Debug\\\\" /Fd"cmTC_c3056.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3056.dir\\Debug\\\\" /Fd"cmTC_c3056.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.dir\\Debug\\cmTC_c3056.tlog'. [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1.CommonInit() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.Directory.GetFiles(String path, String searchPattern) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.TrackedDependencies.ExpandWildcards(ITaskItem[] expand) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, Boolean constructOutputsFromTLogs) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles..ctor(ITaskItem[] tlogFiles) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        Done Building Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.dir\\Debug\\cmTC_c3056.tlog'. [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1.CommonInit() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.Directory.GetFiles(String path, String searchPattern) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.TrackedDependencies.ExpandWildcards(ITaskItem[] expand) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, Boolean constructOutputsFromTLogs) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles..ctor(ITaskItem[] tlogFiles) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-c1se6e\\cmTC_c3056.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe"
+    directories:
+      source: "C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-xs340x"
+      binary: "C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-xs340x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-xs340x
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ea6dc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 25-03-2023 15:29:40.
+        Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ea6dc.dir\\Debug\\".
+          Creating directory "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\Debug\\".
+          Creating directory "cmTC_ea6dc.dir\\Debug\\cmTC_ea6dc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ea6dc.dir\\Debug\\cmTC_ea6dc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea6dc.dir\\Debug\\\\" /Fd"cmTC_ea6dc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\testCCompiler.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          testCCompiler.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea6dc.dir\\Debug\\\\" /Fd"cmTC_ea6dc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\testCCompiler.c"
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.dir\\Debug\\cmTC_ea6dc.tlog'. [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1.CommonInit() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.Directory.GetFiles(String path, String searchPattern) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.TrackedDependencies.ExpandWildcards(ITaskItem[] expand) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, Boolean constructOutputsFromTLogs) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles..ctor(ITaskItem[] tlogFiles) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        Done Building Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.dir\\Debug\\cmTC_ea6dc.tlog'. [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1.CommonInit() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.Directory.GetFiles(String path, String searchPattern) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.TrackedDependencies.ExpandWildcards(ITaskItem[] expand) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, Boolean constructOutputsFromTLogs) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles..ctor(ITaskItem[] tlogFiles) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-xs340x\\cmTC_ea6dc.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 25-03-2023 15:31:20.
+      Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.95
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/3.26.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 25-03-2023 15:31:21.
+      Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\3.26.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.78
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/3.26.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-uhf9f3"
+      binary: "C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-uhf9f3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-uhf9f3
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9ccb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 25-03-2023 15:31:22.
+        Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9ccb0.dir\\Debug\\".
+          Creating directory "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\Debug\\".
+          Creating directory "cmTC_9ccb0.dir\\Debug\\cmTC_9ccb0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9ccb0.dir\\Debug\\cmTC_9ccb0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ccb0.dir\\Debug\\\\" /Fd"cmTC_9ccb0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ccb0.dir\\Debug\\\\" /Fd"cmTC_9ccb0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.dir\\Debug\\cmTC_9ccb0.tlog'. [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1.CommonInit() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.Directory.GetFiles(String path, String searchPattern) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.TrackedDependencies.ExpandWildcards(ITaskItem[] expand) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, Boolean constructOutputsFromTLogs) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles..ctor(ITaskItem[] tlogFiles) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        Done Building Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.dir\\Debug\\cmTC_9ccb0.tlog'. [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1.CommonInit() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.Directory.GetFiles(String path, String searchPattern) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.TrackedDependencies.ExpandWildcards(ITaskItem[] expand) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, Boolean constructOutputsFromTLogs) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles..ctor(ITaskItem[] tlogFiles) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-uhf9f3\\cmTC_9ccb0.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe"
+    directories:
+      source: "C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-l5mneu"
+      binary: "C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-l5mneu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Harsha/Documents/Projects/Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization/Image-Contrast-Enhancement/CMakeFiles/CMakeScratch/TryCompile-l5mneu
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_614de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 25-03-2023 15:31:23.
+        Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_614de.dir\\Debug\\".
+          Creating directory "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\Debug\\".
+          Creating directory "cmTC_614de.dir\\Debug\\cmTC_614de.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_614de.dir\\Debug\\cmTC_614de.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_614de.dir\\Debug\\\\" /Fd"cmTC_614de.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\testCCompiler.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30146 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          testCCompiler.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_614de.dir\\Debug\\\\" /Fd"cmTC_614de.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\testCCompiler.c"
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.dir\\Debug\\cmTC_614de.tlog'. [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1.CommonInit() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.Directory.GetFiles(String path, String searchPattern) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.TrackedDependencies.ExpandWildcards(ITaskItem[] expand) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, Boolean constructOutputsFromTLogs) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles..ctor(ITaskItem[] tlogFiles) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        Done Building Project "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003: The specified task executable "CL.exe" could not be run. System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.dir\\Debug\\cmTC_614de.tlog'. [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1.CommonInit() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at System.IO.Directory.GetFiles(String path, String searchPattern) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.TrackedDependencies.ExpandWildcards(ITaskItem[] expand) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.InternalConstruct(ITask ownerTask, ITaskItem[] tlogFiles, Boolean constructOutputsFromTLogs) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.CanonicalTrackedOutputFiles..ctor(ITaskItem[] tlogFiles) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands) [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Microsoft\\VC\\v160\\Microsoft.CppCommon.targets(687,5): error MSB6003:    at Microsoft.Build.Utilities.ToolTask.Execute() [C:\\Users\\Harsha\\Documents\\Projects\\Adaptive Image Contrast Enhancement Using Generalizations of Histogram Equalization\\Image-Contrast-Enhancement\\CMakeFiles\\CMakeScratch\\TryCompile-l5mneu\\cmTC_614de.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 1
+...
